@@ -1,12 +1,90 @@
-/* BASIC STYLE */
+/* ########################################################################### */
+/* ------------- BASIC STYLE --------------- */
+/* ########################################################################### */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 20px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 20px;
+  color: #555;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ########################################################################### */
+/* ------------- REUSABLE COMPONENT --------------- */
+/* ########################################################################### */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited {
+    
+}
+
+
+/* ########################################################################### */
+/* ------------- HEADER --------------- */
+/* ########################################################################### */
+header {
+  background-image: linear-gradient(#000000b3, #000000b3), url(img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
+  width: 100%;
+}
+
+.main-nav img {
+  width: 100px;
+  float: left;
+  margin-top: 15px;
+}
+
+.main-nav ul {
+  float: right;
+  margin-top: 55px;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.main-nav ul li a {
+  color: #fff;
+  font-size: 90%;
+}
+
+.hero-text {
+  width: 1140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-text h1 {
+  font-weight: 300;
+  font-size: 230%;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 3px;
+  word-spacing: 2px;
 }
