@@ -121,14 +121,11 @@ p {
   color: #555;
 }
 
-
 /* ######################## ICON ####################### */
 .icon-xLarge {
   color: #e67e22;
   font-size: 350%;
 }
-
-
 
 /* ########################################################################### */
 /* ########################### HEADER ######################################## */
@@ -198,4 +195,41 @@ header {
 
 .features-section {
   padding-top: 80px;
+}
+
+/* ########################################################################### */
+/* ####################### FAVORITE MEALS SECTION ############################ */
+/* ########################################################################### */
+
+.favorite-meals-section {
+  width: 100%;
+}
+
+.favorite-meals-section div {
+  background-color: #000000;
+}
+
+.favorite-meals-section div ul {
+  width: 100%;
+  font-size: 0;
+}
+
+.favorite-meals-section div ul li {
+  display: inline-block;
+  width: 25%;
+  overflow: hidden;
+}
+
+.favorite-meals-section div ul li img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.favorite-meals-section div ul li img:hover,
+.favorite-meals-section div ul li img:active {
+  transform: scale(1.01);
+  opacity: 1;
 }
