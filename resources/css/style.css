@@ -236,6 +236,7 @@ header {
 /* ########################################################################### */
 .how-it-works {
   background-color: #f0f0f0;
+  padding-bottom: 40px;
 }
 
 .how-it-works-content {
@@ -276,4 +277,9 @@ header {
 
 .how-it-works-content .steps .step p {
   font-size: 105%;
+}
+
+.how-it-works-content .steps img {
+  height: 40px;
+  width: auto;
 }
