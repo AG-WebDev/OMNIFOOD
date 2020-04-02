@@ -127,6 +127,12 @@ p {
   font-size: 350%;
 }
 
+.icon-small {
+  color: #e67e22;
+  font-size: 120%;
+  margin-right: 15px;
+}
+
 /* ########################################################################### */
 /* ########################### HEADER ######################################## */
 /* ########################################################################### */
@@ -276,4 +282,47 @@ header {
 
 .how-it-works-content .steps .step p {
   font-size: 105%;
+}
+
+
+/* ########################################################################### */
+/* ####################### CITIES SECTION ############################## */
+/* ########################################################################### */
+.cities-features {
+  margin-top: 30px;
+}
+
+.city {
+  padding: 1%;
+}
+
+.city img {
+  width: 100%;
+}
+
+.city ul li {
+  margin-bottom: 10px;
+}
+
+.city ul li div {
+  width: 36px;
+  float: left;
+  text-align: center
+}
+
+.city ul li:last-child a:link,
+.city ul li:last-child a:visited {
+  color: #e67e22;
+  border-bottom: 1px solid #e67e22;
+  transition: color 0.2s, border-bottom 0.2s;
+}
+
+.city ul li:last-child a:hover,
+.city ul li:last-child a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
+.city ul li:last-child div i:hover {
+  color: #55acee;
 }
