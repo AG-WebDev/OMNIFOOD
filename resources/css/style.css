@@ -33,7 +33,7 @@ a {
 }
 
 section {
-  padding: 40px 0;
+  padding-top: 70px;
 }
 
 .box {
@@ -193,9 +193,6 @@ header {
 /* ########################### FEATURES SECTION ############################## */
 /* ########################################################################### */
 
-.features-section {
-  padding-top: 80px;
-}
 
 /* ########################################################################### */
 /* ####################### FAVORITE MEALS SECTION ############################ */
@@ -232,4 +229,51 @@ header {
 .favorite-meals-section div ul li img:active {
   transform: scale(1.01);
   opacity: 1;
+}
+
+/* ########################################################################### */
+/* ####################### HOW IT WORKS SECTION ############################## */
+/* ########################################################################### */
+.how-it-works {
+  background-color: #f0f0f0;
+}
+
+.how-it-works-content {
+  margin-top: 65px;
+}
+
+.how-it-works-content .app-screen {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.how-it-works-content .app-screen img {
+  width: 40%;
+  height: auto;
+}
+
+.how-it-works-content .steps {
+  padding-left: 3%;
+  margin-top: 50px;
+} 
+
+.how-it-works-content .steps .step {
+  margin-bottom: 50px;
+}
+
+.how-it-works-content .steps .step div{
+  float: left;
+  width: 54px;
+  height: 54px;
+  padding: 5px;
+  text-align: center;
+  margin-right: 20px;
+  color: #e67e22;
+  font-size: 150%;
+  border: 2px solid #e67e22;
+  border-radius: 50%;
+}
+
+.how-it-works-content .steps .step p {
+  font-size: 105%;
 }
