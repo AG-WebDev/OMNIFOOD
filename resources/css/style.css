@@ -293,6 +293,10 @@ header {
 /* ########################################################################### */
 /* ############################# CITIES SECTION ############################## */
 /* ########################################################################### */
+.cities-section {
+  padding-bottom: 60px;
+}
+
 .cities-features {
   margin-top: 30px;
 }
@@ -331,3 +335,62 @@ header {
 .city ul li:last-child div i:hover {
   color: #55acee;
 }
+
+
+/* ########################################################################### */
+/* ############################# CUSTOMERS SECTION ############################## */
+/* ########################################################################### */
+
+.customers-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)  ), url(img/back-customers.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 85px;
+}
+
+.quotes {
+  margin-top: 30px;
+} 
+
+blockquote {
+  font-weight: 300;
+  font-style: italic;
+  line-height: 150%;
+  margin: 35px 0;
+  position: relative;
+}
+
+blockquote::before {
+  display: block;
+  content: '\201C';
+  font-size: 550%;
+  position: absolute;
+  top: -15px;
+  left: -10px;
+}
+
+cite img {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+cite span {
+  font-size: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
